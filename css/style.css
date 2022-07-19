@@ -1,12 +1,16 @@
 /* font  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,800;1,400;1,500;1,600&display=swap");
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 .top-area{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0;
 }
 .half-width{
     width: 50%;
@@ -15,7 +19,7 @@ body{
 }
 .half-width img{
     width: 440px;
-    height: 414px;
+    height: 400px;
 }
 .img-bg{
     background-image: url(../images/Circle\ design.svg);
@@ -28,7 +32,77 @@ body{
     border: none;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     padding: 8px 20px ;
     border-radius: 20px;
+    margin-top: 20px;
 }
+.line {
+    width: 80%;
+    height: 1px;
+    background: 2px lightgray;
+    margin: 30px auto;
+    
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* catalog css  */
+.collection-text{
+    text-align: center;
+    color: #3A3A3A;
+    margin: 100px;
+}
+.catalog-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 100px;
+   
+}
+.catalog{
+        padding: 15px 20px;
+        box-shadow: 5px 5px 20px lightgray;
+        border-radius: 10px;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+
+/* rating  */
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star-half-stroke{
+    color: #FB8200;
+}
+.more{
+    color: #E02C6DDE;
+    font-weight: 700;
+    margin-right: 100px;
+    text-align: right;
+    
+}
+.footer{
+    height: 150px;
+    text-align: center;
+    background-color: black;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.fa-facebook{
+    color: #ffff;
+}
+.fa-instagram{
+    color: #ffff;
+}
+.fa-twitter{
+    color: #ffff;
+}
+.fa-youtube{
+    color: #ffff;
+}
+
